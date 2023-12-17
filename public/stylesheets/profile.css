@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(14, 14, 14);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.containerprs {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cardprs {
+  background-color:rgb(14, 14, 14);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 24px;
+  color: white;
+}
+
+.username {
+  font-size: 18px;
+  color: white;
+  margin-top: 2px;
+}
+
+.tagline,
+.description {
+  color: white;
+  margin-top: 5px;
+}
+
+.buttonprs {
+  display: inline-block;
+  padding: 3px 12px;
+  background-color: rgb(216, 8, 8);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.buttonprs:hover {
+  background-color:red;
+  color:#fff;
+}
+
+.uploadbtn{
+  font-size: 13px;
+}
+.choosefile:hover{
+  cursor: pointer;
+}
+.profilupload:hover{
+  cursor: pointer;
+}
+.profileimg{
+  background-color: #fff;
+}
+.search::placeholder{
+  color: black;
+  padding-left: 20px;
+}
+.search:focus{
+outline: none;
+}
+.choosefileinput:focus{
+  outline: none;
+  }
+  .choosefileinput{
+    border-radius: 3px;
+  }
+  /*  */
+.card:hover{
+  opacity: .60;
+  cursor: zoom-in;
+}
+.card{
+  break-inside: avoid;
+}
+/* hh */
+.container{
+  padding-top: 10vh;
+  width: 100%;
+  column-gap: 20px !important; 
+}
+.container .box
+{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  border-radius: 8px;
+}
+.container .box img
+{
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 10px;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: start;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: .5rem 5px;
+}
+/* *************************** */
+@media (max-width: 786px)
+{
+  .container
+  {
+    columns: 2;
+  }
+}
+@media (max-width: 480px)
+{
+  .container
+  {
+    columns: 1;
+  }
+}
+@media (max-width: 1427px)
+{
+  .container
+  {
+    columns: 5;
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 1200px)
+{
+  .container
+  {
+    columns: 4;
+  }
+}
+
+@media (max-width: 1000px)
+{
+  .container
+  {
+    columns: 3;
+  }
+}

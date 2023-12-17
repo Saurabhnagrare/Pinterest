@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+/* background-image: url("../images/uploads/bceb0233-2288-4be5-a04a-90d769adbf2cs.png"); */
+
+font-family: "Gilroy";
+
+}
+.back{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uploads/bceb0233-2288-4be5-a04a-90d769adbf2cs.png');
+  background-position: container;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 3rem;
+}
+.container {
+  background-color: white;
+  width: 400px;
+  
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -505);
+  padding: 10px 0px;
+  border-radius: 10px;
+  
+}
+.content {
+  width: 56%;
+  margin: auto;
+  text-align: center;
+}
+ 
+.img1{
+  width: 40px;
+  position: relative;
+  margin-top: 5px;
+}
+.header {
+  font-size: 20px;
+  font-weight: 700;
+  
+  margin-bottom: 10px;
+  
+}
+.detail {
+  width: 100%;
+  height: 30px;
+  margin: 5px;
+  padding: 15px;
+  font-size: 15px;
+  color: gray;
+  border: 2px solid rgb(218, 214, 214);
+  border-radius: 15px;
+}
+.detail:focus {
+  
+  outline: none;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 700;
+  position: relative;
+  left: -45px;
+  margin: 5px;
+}
+
+.btn {
+  width: 100%;
+  height: 31px;
+  border: hidden;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 5px 0px;
+}
+
+.int {
+  background-color: #f30d19;
+  
+  color: white;
+  font-size: 14px;
+  
+  cursor: pointer;
+}
+.int:hover{
+  background-color: #df0812;
+}
+
+.or {
+  font-size: 14px;
+  
+}
+
+.fbk {
+  background-color: rgb(9, 128, 240);
+  
+  font-size: 14px;
+  
+}
+.fbk a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  
+}
+.fbk:hover{
+  background-color: rgb(8, 110, 206);
+}
+.ggl{
+  text-align: center;
+  background-color: #ccc;
+}
+.ggl a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  
+}
+.ggl:hover{
+  background-color: #a0a0a0;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 10px;
+  opacity: 0.7;
+}
+p:last-child {
+  opacity: 1;
+}
+hr {
+  width: 50%;
+  opacity: 0.4;
+  margin-left: 25%;
+}
+.upbtn{
+  position: relative;
+  top: 50px;
+  left: 140px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  width: 126px;
+  padding: 11px 0px;
+  background-color: rgb(241, 236, 236);
+  border-radius: 20px;
+}
+
+.error{
+  color: #df0812;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 7px 0;
+}
